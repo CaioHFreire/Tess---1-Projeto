@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #0D0D0D;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    height: 200px;
+    margin-top: -170px;
+    background: url(https://i.pinimg.com/originals/4e/de/5a/4ede5a33c5490195b2b17466ad26d124.gif);
+    background-size: 605px 217px;
+    font-size: 230px;
+    font-family: 'Exo 2', sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.menu {
+    margin-top: 250px;
+    font-size: 50px;
+    position: absolute;
+    background-color: #2B1E40;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-family: 'Stick No Bills', sans-serif;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 3px aqua;
+}
+
+.menu:hover {
+    opacity: 0.5;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}

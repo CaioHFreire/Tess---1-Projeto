@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style4.css">
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <title>TESS</title>
+</head>
+
+<body>
+    <!--Cabeçalho e Menu interativo-->
+    <header>
+        <!--Logo da empresa-->
+        <a class="Logo" href="C:\Users\user\Documents\TESS bem-vindo\TESS Bem vindo\inicio.html">
+            <img src="./img/TESS 3D.png"></a>
+        <!--Logo da empresa-->
+    </header>
+    <!--Inicio do menu-->
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina1.html"> HOME</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina2.html"> ODS - ONU</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina3.html"> I.A</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina4.html"> SOBRE-NÓS</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina5.html"> TRABALHE AQUI</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menu-bg" class="menu-bg"> </div>
+    <!--javascript menu-->
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+        }
+
+    </script>
+    <!--Fim do javascript-->
+
+    <!--Final Cabeçalho e menu-->
+
+    <nav>
+        <div class="coluna-e"></div>
+    </nav>
+
+    <main>
+        
+        <div class="texto-main">
+            <!--TEXTO MAIN 1-->
+           <h1>O que é TESS?</h1>
+            <br>
+            TESS é o nome da assistente virtual da TESS Corporation, introduzida em 2020 junto com o Tone, sua primeira caixa de som inteligente.
+            <br>
+            <br>
+            Diferente do que Apple, Google e Microsoft faziam até então, com Siri, Google Assistente e Cortana, a TESS já nasceu com foco em atender o usuário nas tarefas do dia a dia, principalmente se forem compras na loja.
+            <br>
+            <br>
+            Assim como suas concorrentes a TESS é uma assistente conversacional, capaz de entender contexto até certo ponto e executar tarefas simples, como configurar alarmes, informar a situação do trânsito ou a previsão do tempo, executar uma lista de músicas ou reproduzir podcasts.   
+            <br>
+            <br>
+            Mas, por não estar atrelada a um sistema operacional, a TESS é compatível com Android, Windows 10 (a interação com o iPhone é mais limitada, mas existe), além de ser capaz de se conectar a uma vasta gama de dispositivos de terceiros.
+            <!--FINAL TEXTO MAIN 1-->
+        </div>
+        <div class="texto-main2">
+            <!--TEXTO MAIN 2-->
+            <div class="h1-2">Como funciona a TESS?</div>
+            <br>        
+            Basicamente, é necessária uma palavra de ativação para despertar a assistente e depois pedir o comando. 
+            Essa palavra de ativação pode ser configurada para “TESS”, “TESS Corporation” ou “Tone”. Assim, os microfones ficam sempre atentos para ouvir se o usuário vai executar um comando.
+            <br>
+            <br>
+            Então, como nas demais assistentes virtuais, quando a palavra de ativação é dita, basta prosseguir com a solicitação. Exemplo:
+            <br>
+            <br>
+            <div class="vl"></div>TESS, defina um alarma para amanhã, às 3 da tarde.
+            <br>
+            <br>
+            Esses pedidos são gravados e enviados para os servidores da TESS Corporation, nos quais é feito o processamento da solicitação e, depois, devolvidos ao usuário. Tudo acontece rapidamente.
+            <!--FINAL TEXTO MAIN 2-->
+        </div>
+    </main>
+
+    <aside>
+        
+    </aside>
+
+    <footer>
+        <a href="https://www.pactoglobal.org.br/ods">
+            <img class="ONU" src="./img/ONU.png">
+        </a>
+        <br>
+        <a class="info" href="https://www.pactoglobal.org.br/ods">17 ODS da ONU - PACTO GLOBAL
+        </a>
+        <address>
+            Envie um e-mail para:
+            <a class="email" href="mailto:caiohenriquefreire@icloud.com">Caio Freire</a>
+            <br>
+            Telefone:
+            <a class="telefone" href="tel:+5511940305233">(11)94030-5233</a>
+        </address>
+    </footer>
+
+</body>
+
+</html>

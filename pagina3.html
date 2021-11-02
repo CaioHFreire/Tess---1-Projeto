@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <title>TESS</title>
+</head>
+
+<body>
+    <!--Cabeçalho e Menu interativo-->
+    <header>
+        <!--Logo da empresa-->
+        <a class="Logo" href="C:\Users\user\Documents\TESS bem-vindo\TESS Bem vindo\inicio.html">
+            <img src="./img/TESS 3D.png"></a>
+        <!--Logo da empresa-->
+    </header>
+    <!--Inicio do menu-->
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina1.html"> HOME</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina2.html"> ODS - ONU</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina3.html"> I.A</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina4.html"> SOBRE-NÓS</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina5.html"> TRABALHE AQUI</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menu-bg" class="menu-bg"> </div>
+    <!--javascript menu-->
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+        }
+
+    </script>
+    <!--Fim do javascript-->
+
+    <!--Final Cabeçalho e menu-->
+
+    <nav>
+        <div class="coluna-e"></div>
+    </nav>
+
+    <main>
+
+        <div class="texto-main">
+            <!--TEXTO MAIN 1-->
+            <h1>Tecnologias que estão no nosso foco</h1>
+            <br>
+            O time de Inteligência Artificial da TESS contribui com a magia da TESS. Nosso objetivo é tornar
+            interfaces de voz universais e estabelecer uma comunicação tão natural como se fosse com um humano.
+            <br>
+            <br>
+            Temos um foco incansável na experiência do cliente e nas avaliações dos clientes. Usamos muitas fontes de
+            dados do mundo real, inclusive interações com clientes e uma variedade de tecnologias de ponta, como
+            aprendizado profundo altamente escalável para treinar nossos modelos de discurso.
+            <br>
+            <br>
+            Aprendizado em tamanha escala requer novas pesquisas e desenvolvimento. O time é responsável por pesquisas
+            de primeira linha e desenvolvimento em praticamente todos os campos de tecnologia de linguagem humana. 
+            <!--FINAL TEXTO MAIN 1-->
+        </div>
+        <div class="texto-main2">
+            <!--TEXTO MAIN 2-->
+            Este
+            artigo da WIRED, que inclui entrevistas com diversos cientistas da TESS, oferece um bom panorama da nossa
+            abordagem de pesquisa e desenvolvimento com foco no cliente.
+            <br>
+            <br>
+            Há também esta entrevista com Caio H. Freire, CEO da TESS coporation.
+            <br>
+            <br>
+            Os cientistas e desenvolvedores da TESS têm um impacto significativo na vida dos clientes e estão levando o mercado a uma mudança em direção à inteligência artificial conversacional.
+            <br>
+            <br>
+            Os cientistas e engenheiros da TESS também inventam novas ferramentas e APIs para acelerar o desenvolvimento de serviços de voz, empoderando os desenvolvedores com o Kit de habilidades da TESS e o Serviço de voz da TESS.
+            <!--FINAL TEXTO MAIN 2-->
+        </div>
+    </main>
+
+    <aside>
+
+    </aside>
+
+    <footer>
+        <a href="https://www.pactoglobal.org.br/ods">
+            <img class="ONU" src="./img/ONU.png">
+        </a>
+        <br>
+        <a class="info" href="https://www.pactoglobal.org.br/ods">17 ODS da ONU - PACTO GLOBAL
+        </a>
+        <address>
+            Envie um e-mail para:
+            <a class="email" href="mailto:caiohenriquefreire@icloud.com">Caio Freire</a>
+            <br>
+            Telefone:
+            <a class="telefone" href="tel:+5511940305233">(11)94030-5233</a>
+        </address>
+    </footer>
+
+</body>
+
+</html>

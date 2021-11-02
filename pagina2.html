@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <title>TESS</title>
+</head>
+
+<body>
+    <!--Cabeçalho e Menu interativo-->
+    <header>
+        <!--Logo da empresa-->
+        <a class="Logo" href="C:\Users\user\Documents\TESS bem-vindo\TESS Bem vindo\inicio.html">
+            <img src="./img/TESS 3D.png"></a>
+        <!--Logo da empresa-->
+    </header>
+    <!--Inicio do menu-->
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina1.html"> HOME</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina2.html"> ODS - ONU</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina3.html"> I.A</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina4.html"> SOBRE-NÓS</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina5.html"> TRABALHE AQUI</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menu-bg" class="menu-bg"> </div>
+    <!--javascript menu-->
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+        }
+
+    </script>
+    <!--Fim do javascript-->
+
+    <!--Final Cabeçalho e menu-->
+
+    <nav>
+        <div class="coluna-e">
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="texto-main">
+            <!--TEXTO MAIN 1-->
+            <h1>Indústria, inovação e infraestrutura</h1>
+            <br>
+            Desenvolver infraestrutura de qualidade, confiável, sustentável e resiliente, incluindo infraestrutura
+            regional e transfronteiriça, para apoiar o desenvolvimento econômico e o bem-estar humano, com foco no
+            acesso equitativo e a preços acessíveis para todos
+            <br>
+            <br>
+            Promover a industrialização inclusiva e sustentável e, até 2030, aumentar significativamente a participação
+            da indústria no setor de emprego e no PIB, de acordo com as circunstâncias nacionais, e dobrar sua
+            participação nos países menos desenvolvidos
+            <br>
+            <br>
+            Aumentar o acesso das pequenas indústrias e outras empresas, particularmente em países em desenvolvimento,
+            aos serviços financeiros, incluindo crédito acessível e sua integração em cadeias de valor e mercados
+            <!--FINAL TEXTO MAIN 1-->
+        </div>
+        <div class="texto-main2">
+            <!--TEXTO MAIN 2-->
+            <h1>Trabalho decente e crescimento econômico</h1>
+            <br>
+            Sustentar o crescimento econômico per capita de acordo com as circunstâncias nacionais e, em particular, um
+            crescimento anual de pelo menos 7% do produto interno bruto [PIB] nos países menos desenvolvidos
+            <br>
+            <br>
+            Atingir níveis mais elevados de produtividade das economias por meio da diversificação, modernização
+            tecnológica e inovação, inclusive por meio de um foco em setores de alto valor agregado e dos setores
+            intensivos em mão de obra
+            <br>
+            <br>
+            Promover políticas orientadas para o desenvolvimento que apoiem as atividades produtivas, geração de emprego
+            decente, empreendedorismo, criatividade e inovação, e incentivar a formalização e o crescimento das micro,
+            pequenas e médias empresas, inclusive por meio do acesso a serviços financeiros
+            <!--FINAL TEXTO MAIN 2-->
+        </div>
+    </main>
+
+    <aside>
+        <!--COLOCAR ALGO AQUI!-->
+    </aside>
+
+    <footer>
+        <a href="https://www.pactoglobal.org.br/ods">
+            <img class="ONU" src="./img/ONU.png">
+        </a>
+        <br>
+        <a class="info" href="https://www.pactoglobal.org.br/ods">17 ODS da ONU - PACTO GLOBAL
+        </a>
+        <address>
+            Envie um e-mail para:
+            <a class="email" href="mailto:caiohenriquefreire@icloud.com">Caio Freire</a>
+            <br>
+            Telefone:
+            <a class="telefone" href="tel:+5511940305233">(11)94030-5233</a>
+        </address>
+    </footer>
+
+</body>
+
+</html>

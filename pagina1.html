@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <title>TESS</title>
+</head>
+
+<body>
+
+    <!--Cabeçalho e Menu interativo-->
+    <header>
+        <!--Logo da empresa-->
+        <a class="Logo" href="C:\Users\user\Documents\TESS bem-vindo\TESS Bem vindo\inicio.html">
+            <img src="./img/TESS 3D.png"></a>
+        <!--Logo da empresa-->
+    </header>
+    <!--Inicio do menu-->
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina1.html"> HOME</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina2.html"> ODS - ONU</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina3.html"> I.A</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina4.html"> SOBRE-NÓS</a></li>
+                <li><a href="C:\Users\user\Documents\TESS bem-vindo\TESS IN\pagina5.html"> TRABALHE AQUI</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menu-bg" class="menu-bg"> </div>
+    <!--javascript menu-->
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+        }
+
+    </script>
+    <!--Fim do javascript-->
+
+    <!--Final Cabeçalho e menu-->
+
+    <nav>
+        <div class="coluna-e"></div>
+    </nav>
+
+    <main>
+        <img class="main-ia" src="./img/ai.png">
+        <div class="texto-main">
+            <!--TEXTO MAIN-->
+            <h1>A TESS &#129302;</h1>
+            <br>
+            É um sistema automático PoO objetivo principal dos sistemas de inteligência artificial é
+            desempenhar funções.
+            <br>
+            <br>
+            Se os humanos quiserem desempenhar essas funções, eles serão considerados inteligentes.
+            <br>
+            <br>
+            Este é um conceito amplo e aceita tantas definições quanto os diferentes significados que atribuímos à
+            palavra inteligência.
+            <br>
+            <br>
+            Podemos pensar em algumas características básicas desses sistemas, como capacidade de raciocínio (aplicação
+            de regras lógicas a um conjunto de dados disponíveis para tirar conclusões),
+            <br>
+            <br>
+            aprendizagem (aprender com os erros e acertos para agir com mais eficácia no futuro) e reconhecimento de
+            padrões (padrões visuais e sensoriais e padrões de comportamento) e raciocínio (a capacidade de aplicar o
+            raciocínio em nossas vidas diárias).
+            <br>
+            <br>
+            O principal objetivo dos sistemas de IA, é executar funções que, caso um ser humano fosse executar, seriam
+            consideradas inteligentes. É um conceito amplo, e que recebe tantas definições quanto damos significados
+            diferentes à palavra inteligência.
+            <!--FINAL TEXTO MAIN-->
+        </div>
+    </main>
+
+    <aside>
+
+    </aside>
+
+    <footer>
+        <a href="https://www.pactoglobal.org.br/ods">
+            <img class="ONU" src="./img/ONU.png">
+        </a>
+        <br>
+        <a class="info" href="https://www.pactoglobal.org.br/ods">17 ODS da ONU - PACTO GLOBAL
+        </a>
+        <address>
+            Envie um e-mail para:
+            <a class="email" href="mailto:caiohenriquefreire@icloud.com">Caio Freire</a>
+            <br>
+            Telefone:
+            <a class="telefone" href="tel:+5511940305233">(11)94030-5233</a>
+        </address>
+    </footer>
+
+</body>
+
+</html>
